@@ -1,0 +1,8 @@
+#ignore everything in the proj root
+/Proj/*
+/Proj/*/
+
+#except these dirs / files
+#see http://stackoverflow.com/questions/1248570/git-ignore-everything-except-subdirectory
+!/Proj/Assets/
+!/Proj/ProjectSettings/
